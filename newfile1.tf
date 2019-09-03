@@ -8,7 +8,7 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "myterraformgroup" {
-    name     = "eurg"
+    name     = "eurgdemo"
     location = "eastus"
 
     tags = {
